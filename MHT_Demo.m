@@ -1,8 +1,8 @@
 clear;clc;
 close all;
-base_path='U:\BD_TECH';
+base_path='U:\base_donnes';
 % videos={'ball';'basketball';'board';'book';'bus';'bus2';'campus';'car';'car2';'car3';'card';'coin';'coke';'drive';'excavator';'face';'face2';'forest';'forest2';'fruit';'hand';'kangaroo';'paper';'pedestrain';'pedestrian2';'player';'playground';'rider1';'rider2';'rubik';'student';'toy1';'toy2';'trucker';'worker'};OPs = zeros(numel(videos),1);
-videos={'hat'};
+videos={'bus'};
 FPSs = zeros(numel(videos),1);
 videoNum=numel(videos);
 distance_rec=zeros(videoNum,50);

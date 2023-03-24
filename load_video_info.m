@@ -1,6 +1,6 @@
 function [seq, ground_truth] = load_video_info(video_path)
 
-ground_truth = dlmread([video_path '/HSI/init_rect.txt']);
+ground_truth = 4*dlmread([video_path '/HSI/groundtruth_rect.txt']);
 % ground_truth=ground_truth(11:end,:);
 
 seq.len = size(ground_truth, 1);

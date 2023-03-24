@@ -194,6 +194,9 @@ for frame = 1:numel(s_frames)
     end
     disp(['Running frame ',num2str(frame)]);
     im = Demosaicing_img(im);
+%     if frame==10
+%         break;
+%     end
    % im=X2Cube(im);
     im=im./max(im(:));
     %     if size(im,3) > 1 && colorImage == false
